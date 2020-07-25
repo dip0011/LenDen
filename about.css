@@ -1,0 +1,95 @@
+
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+div { position: absolute; }
+
+#content-container { display: table; position: relative;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#page_about_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 1080px;
+	overflow:hidden;
+}
+
+#_bg__about_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 1080px;
+	background: -webkit-linear-gradient(-225deg , rgba(219,225,230,255) 0%, rgba(29,69,94,255) 100%);
+	background: -o-linear-gradient(-225deg , rgba(219,225,230,255) 0%, rgba(29,69,94,255) 100%);
+	background: -moz-linear-gradient(-225deg , rgba(219,225,230,255) 0%, rgba(29,69,94,255) 100%);
+	background: -ms-linear-gradient(-225deg , rgba(219,225,230,255) 0%, rgba(29,69,94,255) 100%);
+	background: linear-gradient(-225deg , rgba(219,225,230,255) 0%, rgba(29,69,94,255) 100%);
+}
+
+
+#header {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 121px;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(61,116,151,255);
+}
+
+
+#len_den {
+	top: 31px;
+	left: 102px;
+	width: 241px;
+	height: 63px;
+	font-family: Swis721 Blk BT;
+	font-size: 45px;
+	text-align: left;
+	color:#01253f;
+}
+
+
+#lenden_logo {
+	top: -6px;
+	left: -14px;
+	width: 141px;
+	height: 141px;
+}
+
+
+#all_rights_reserved_by_dip_dhameliya_and_len_den {
+	top: 428px;
+	left: 254px;
+	width: 1031px;
+	height: 190px;
+	font-family: Swis721 Blk BT;
+	font-size: 50px;
+	text-align: center;
+	color:#01253f;
+}
+
+
+#pngwing_com__1_ {
+	top: 419px;
+	left: 169px;
+	width: 81px;
+	height: 81px;
+}
+
+
+#pngwing_com {
+	top: 19px;
+	left: 1401px;
+	width: 92px;
+	height: 89px;
+}
+
+
+
+/* Add your custom CSS here */

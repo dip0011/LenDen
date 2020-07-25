@@ -1,0 +1,448 @@
+
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+div { position: absolute; }
+
+#content-container { display: table; position: relative;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#page_index_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 2160px;
+	overflow:hidden;
+}
+
+#_bg__index_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1520px;
+	height: 2160px;
+	background:rgba(232,232,232,255);
+}
+
+
+#path_1 {
+	top: 0px;
+	left: -127px;
+	width: 1777.8419189453px;
+	height: 872.86682128906px;
+}
+
+
+#header {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 121px;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(61,116,151,255);
+        overflow: hidden;
+        position: fixed;
+}
+
+
+#book_transparent_image {
+	top: 280px;
+	left: 1003px;
+	width: 486px;
+	height: 383px;
+}
+
+#mouse {
+	top: 685px;
+	left: 745px;
+	width: 29.334167480469px;
+	height: 75.472412109375px;
+}
+
+#mouse_outerline {
+	top: 0px;
+	left: 0px;
+	width: 29.334228515625px;
+	height: 49.399841308594px;
+}
+
+
+#mouse_button {
+	top: 14px;
+	left: 13px;
+	width: 3.271484375px;
+	height: 8.9966430664062px;
+}
+
+
+#arrow {
+	top: 62px;
+	left: 4px;
+	width: 21.964965820312px;
+	height: 13.545166015625px;
+}
+
+
+#len_den {
+	top: 25px;
+	left: 141px;
+	width: 294px;
+	height: 77px;
+	font-family: Swis721 Blk BT;
+	font-size: 55px;
+	text-align: left;
+	color:#01253f;
+        overflow: hidden;
+        position: fixed;
+}
+
+
+#lenden_logo {
+	top: -20px;
+	left: 0px;
+	width: 171px;
+	height: 171px;
+        overflow: hidden;
+        position: fixed;
+}
+
+
+#main_line {
+	top: 361px;
+	left: 68px;
+	width: 733px;
+	height: 186px;
+	font-family: Swis721 BlkCn BT;
+	font-size: 72px;
+	text-align: left;
+	color:#fff9f9;
+}
+
+
+#tag_line {
+	top: 540px;
+	left: 68px;
+	width: 837px;
+	height: 53px;
+	font-family: Swis721 LtEx BT;
+	font-size: 38px;
+	text-align: left;
+	color:#fff9f9;
+}
+
+
+#reg_button {
+	top: 38px;
+	left: 1267px;
+	width: 167px;
+	height: 49px;
+	-ms-border-radius: 24.5px;
+	-o-border-radius: 24.5px;
+	-moz-border-radius: 24.5px;
+	-webkit-border-radius: 24.5px;
+	border-radius: 24.5px;
+	-ms-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(1,37,63,255);
+        overflow: hidden;
+        position: fixed;
+}
+
+
+#log_button {
+	top: 38px;
+	left: 1082px;
+	width: 166px;
+	height: 49px;
+	-ms-border-radius: 24.5px;
+	-o-border-radius: 24.5px;
+	-moz-border-radius: 24.5px;
+	-webkit-border-radius: 24.5px;
+	border-radius: 24.5px;
+	-ms-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(1,37,63,255);
+        overflow: hidden;
+        position: fixed;
+}
+
+
+#home_button {
+	top: 38px;
+	left: 897px;
+	width: 166px;
+	height: 49px;
+	-ms-border-radius: 24.5px;
+	-o-border-radius: 24.5px;
+	-moz-border-radius: 24.5px;
+	-webkit-border-radius: 24.5px;
+	border-radius: 24.5px;
+	-ms-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(1,37,63,255);
+        overflow: hidden;
+        position: fixed;
+}
+#home_button:hover {
+	background:#4D9FCE;	
+}
+#log_button:hover{
+	background:#4D9FCE;	
+}
+#reg_button:hover{
+	background:#4D9FCE;	
+}
+
+#home:hover{
+	color:skyblue;	
+}
+#login:hover{
+	color:skyblue;	
+}
+#register:hover{
+	color:skyblue;	
+}
+#home {
+	top: 50px;
+	left: 950px;
+	width: 71px;
+	height: 30px;
+	font-family: Swis721 Lt BT;
+	font-size: 22px;
+	text-align: left;
+	color:#fff9f9;
+        overflow: hidden;
+        position: fixed;
+}
+
+
+#login {
+	top: 49px;
+	left: 1138px;
+	width: 69px;
+	height: 30px;
+	font-family: Swis721 Lt BT;
+	font-size: 22px;
+	text-align: left;
+	color:#fff9f9;
+        overflow: hidden;
+        position: fixed;
+}
+
+
+#register {
+	top: 49px;
+	left: 1312px;
+	width: 103px;
+	height: 30px;
+	font-family: Swis721 Lt BT;
+	font-size: 22px;
+	text-align: left;
+	color:#fff9f9;
+        overflow: hidden;
+        position: fixed;
+}
+
+
+#lenden_secure {
+	top: 930px;
+	left: 271px;
+	width: 990px;
+	height: 665.5px;
+}
+
+
+#banner_rec_2 {
+	top: 1114px;
+	left: 0px;
+	width: 275px;
+	height: 86px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-131.40133271135deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+	background: -o-linear-gradient(-131.40133271135deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+	background: -moz-linear-gradient(-131.40133271135deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+	background: -ms-linear-gradient(-131.40133271135deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+	background: linear-gradient(-131.40133271135deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+}
+
+
+#banner_rec_1 {
+	top: 1114px;
+	left: 1256px;
+	width: 264px;
+	height: 86px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-225deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+	background: -o-linear-gradient(-225deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+	background: -moz-linear-gradient(-225deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+	background: -ms-linear-gradient(-225deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+	background: linear-gradient(-225deg , rgba(146,192,221,255) 0%, rgba(73,96,111,255) 100%);
+}
+
+
+#sas {
+	top: 1699px;
+	left: 495px;
+	width: 296px;
+	height: 191px;
+	font-family: Swis721 Cn BT;
+	font-size: 31px;
+	font-weight: bold;
+	text-align: left;
+	color:#2f91cc;
+}
+
+
+#secure {
+	top: 1747px;
+	left: -36px;
+	width: 764px;
+	height: 177.5px;
+	overflow: hidden;
+	font-family: Swis721 Hv BT;
+	font-size: 25px;
+	text-align: right;
+	line-height: 25px;
+	color:#2f91cc;
+}
+
+
+#mca {
+	top: 1699px;
+	left: 795px;
+	width: 444px;
+	height: 43px;
+	font-family: Swis721 Cn BT;
+	font-size: 31px;
+	font-weight: bold;
+	text-align: left;
+	color:#2f91cc;
+}
+
+
+#time {
+	top: 1745px;
+	left: 795px;
+	width: 714px;
+	height: 125px;
+	font-family: Swis721 Hv BT;
+	font-size: 25px;
+	text-align: left;
+	color:#2f91cc;
+}
+
+
+#footer {
+	top: 2044px;
+	left: 0px;
+	width: 1520px;
+	height: 119px;
+	-ms-box-shadow:0px -3px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:0px -3px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:0px -3px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:0px -3px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:0px -3px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(61,116,151,255);
+}
+
+
+#txt_seperator {
+	top: 1700px;
+	left: 764px;
+	width: 1px;
+	height: 208px;
+}
+
+
+#len_den_ek1 {
+	top: 2077px;
+	left: 709px;
+	width: 205px;
+	height: 54px;
+	font-family: Swis721 Blk BT;
+	font-size: 38px;
+	text-align: left;
+	-ms-text-shadow:2px 4px 5px rgba(0,0,0,0.41);
+	-o-text-shadow:2px 4px 5px rgba(0,0,0,0.41);
+	-webkit-text-shadow:2px 4px 5px rgba(0,0,0,0.41);
+	-moz-text-shadow:2px 4px 5px rgba(0,0,0,0.41);
+	text-shadow:2px 4px 5px rgba(0,0,0,0.41);
+	color:#01253f;
+}
+
+
+#lenden_logo_ek1 {
+	top: 2046px;
+	left: 609px;
+	width: 128px;
+	height: 128px;
+}
+
+
+#menu_button {
+	top: 38px;
+	left: 1443px;
+	width: 50px;
+	height: 49px;
+	-ms-border-radius: 25px / 24.5px;
+	-o-border-radius: 25px / 24.5px;
+	-moz-border-radius: 25px / 24.5px;
+	-webkit-border-radius: 25px / 24.5px;
+	border-radius: 25px / 24.5px;
+	-ms-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:1px 4px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(1,37,63,255);
+        overflow: hidden;
+        position: fixed;
+}
+#menu_button:hover{
+	background:#4D9FCE;	
+}
+
+#menu_lines {
+	top: 59.294570922852px;
+	left: 1455.8532714844px;
+	width: 27.719360351562px;
+	height: 11.879745483398px;
+        overflow: hidden;
+        position: fixed;
+}
+
+#line_2 {
+	top: -1px;
+	left: 0px;
+	width: 27.719360351562px;
+	height: 2px;
+}
+
+
+#line_3 {
+	top: 5px;
+	left: 4px;
+	width: 20.78955078125px;
+	height: 2px;
+}
+
+
+#line_4 {
+	top: 11px;
+	left: 8px;
+	width: 13.859741210938px;
+	height: 2px;
+}
