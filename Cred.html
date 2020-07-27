@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cred</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h1>Enter Your Transaction</h1></div>
+        <form method="post">
+            <label for="person"><b>Person</b></label>
+            <input type="text" class="text-line" placeholder="Enter name of person" name="person" required><br>
+            
+            <label for="amount"><b>amount</b></label>
+            <input type="text" class="text-line" placeholder="Enter Amount" name="amount" required><br>
+            
+            <select id="cred" name="cred">
+                <option value="credit">credit</option>
+                <option value="debit">debit</option>
+            </select><br>
+            
+            <button type="button" onclick="account()">Record</button>
+        </form>      
+        <script>
+        function account() {
+        location.replace("account.html")
+        }
+        </script>
+    </body>
+</html>

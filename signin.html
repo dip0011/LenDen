@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign In</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h1>SignIn Here</h1></div>
+        <form method="post">
+            <label for="username"><b>Username</b></label>
+            <input type="text" class="text-line" placeholder="Enter Username" name="username" required><br>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" class="text-line" placeholder="Enter Password" name="password" required><br>
+            
+            <button type="button" onclick="profile()">Sign In</button>
+        </form>
+        <script>
+        function profile() {
+        location.replace("profile.html")
+        }
+        </script>
+    </body>
+</html>
