@@ -1,30 +1,29 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>Profile</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="StyleSheet" href="index.css" />
     </head>
     <body>
-        <div><h1>Me</h1></div>
-        Name:Dip Dhameliya<br>
-        Email:Dipdhameliya@gmail.com<br>
-        mobile:+91 0123456789<br>
+        <ul>
+            <li><a class="active" href="p">Profile</a></li>
+            <li><a href="cred.html">Cred</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li style="float:right"><a href="#logout">Logout</a></li>
+        </ul><br><br>
+        <form>
+            <center><div><h1><font color="#116466">Me</font></h1></div> </center>
+                <h3><font color="black" class="txt">Name: Dip Dhameliya<br><br>
+                Email: Dipdhameliya@gmail.com<br><br>
+                Mobile: +91 0123456789<br></font></h3>
+           
         
-        <button type="button" onclick="cred()">Cred</button>
-        <button type="button" onclick="account()">Account</button>
-        
+            <button type="button" onclick="edit()">Edit</button>
+        </form> 
         <script>
-        function cred() {
-        location.replace("Cred.html")
-        }
-        function account() {
-        location.replace("account.html")
+        function edit() {
+        location.replace("edit.html")
         }
         
         </script>

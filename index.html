@@ -1,20 +1,28 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="StyleSheet" href="index.css" />
     </head>
     <body>
-        <div>Welcome To LenDen</div>
-        <button type="button" onclick="signin()">Sign In</button>
-        <button type="button" onclick="signup()">Sign Up</button>
-        
+            
+        <form>
+            <div class="container">
+             <h2 align="center" ><font color="#116466" class="heading">Welcome To LenDen</h2>
+            <br><br><label for="username">Username</label><br><br>
+            <input type="text" class="text-line" name="username" placeholder="Enter Your User name">
+            
+            <br><br>Password<br><br>
+            <input type="password" class="text-line" name="password" placeholder="Enter your password"><br><br>
+
+            <button type="button" onclick="signin()">Sign In</button><br><h4 align="right" ><a href="forgetpass.html"><div>forgot Password?</div></a></h4>
+            
+            
+                <h3 align="center" ><font color="#116466">OR</h3>
+                <button type="button" onclick="signup()">Sign Up</button>
+            </div>
+        </form>
         <script>
         function signin() {
         location.replace("signin.html")

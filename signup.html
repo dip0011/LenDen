@@ -9,28 +9,30 @@ and open the template in the editor.
         <title>Sign Up</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="StyleSheet" href="index.css" />
     </head>
     <body>
-        <div><h1>Register Here</h1></div>
-        
-        <form method="post">
-            <label for="username"><b>Username</b></label>
-            <input type="text" class="text-line" placeholder="Enter Username" name="username" required><br>
+        <form>
+            <font face = "Arial Rounded MT Bold"><a href="signup.html" >Sign Up</a>&nbsp;&nbsp;&nbsp;<a href="signin.html" class="log-select" >Sign In</a></font>
+            <div class="container">
+             <h2 align="center" ><font color="#116466" class="heading">Register</h2>
+            <br><br><label for="username">Username</label><br><br>
+            <input type="text" class="text-line" name="username" placeholder="Enter Your User name">
             
-            <label for="email"><b>Email</b></label>
-            <input type="text" class="text-line" placeholder="Enter Mobile No" name="mobile" required><br>
+            <br><br><label for="mobile">Mobile</label><br><br>
+            <input type="text" class="text-line" name="username" placeholder="Enter Your Mobile-no">
             
-            <label for="mobile"><b>mobile</b></label>
-            <input type="text" class="text-line" placeholder="Enter Email" name="email" required><br>
+            <br><br>Password<br><br>
+            <input type="password" class="text-line" name="password" placeholder="Enter your password"><br><br>
+            
+            <br><br>Re-Password<br><br>
+            <input type="password" class="text-line" name="repassword" placeholder="Enter your password again"><br><br>
 
-            <label for="password"><b>Password</b></label>
-            <input type="password" class="text-line" placeholder="Enter Password" name="password" required><br>
+            <button type="button" onclick="profile()">Sign Up</button><br><br>
             
-            <label for="repassword"><b>Re-Password</b></label>
-            <input type="password" class="text-line" placeholder="Enter Re-Password" name="repassword" required><br>
             
-            <button type="button" onclick="profile()">Sign Up</button>
-        </form>      
+            </div>
+        </form>     
         <script>
         function profile() {
         location.replace("profile.html")

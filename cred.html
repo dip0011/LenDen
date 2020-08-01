@@ -1,31 +1,38 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>Cred</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="StyleSheet" href="index.css" />
     </head>
     <body>
-        <div><h1>Enter Your Transaction</h1></div>
-        <form method="post">
-            <label for="person"><b>Person</b></label>
-            <input type="text" class="text-line" placeholder="Enter name of person" name="person" required><br>
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a class="active" href="cred.html">Cred</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li style="float:right"><a href="#logout">Logout</a></li>
+        </ul><br><br>
+        <form>
+            <div class="container">
+             <h2 align="center" ><font color="#116466" class="heading">Enter Your Transaction</h2>
+            <br><br>Person<br><br>
+            <input type="text" class="text-line" name="username" placeholder="Enter Person name">
             
-            <label for="amount"><b>amount</b></label>
-            <input type="text" class="text-line" placeholder="Enter Amount" name="amount" required><br>
+            <br><br>Amount<br><br>
+            <input type="text" class="text-line" name="username" placeholder="Enter Amount">
             
             <select id="cred" name="cred">
-                <option value="credit">credit</option>
-                <option value="debit">debit</option>
-            </select><br>
+                <option value="credit">Credit</option>
+                <option value="debit">Debit</option>
+            </select>
             
-            <button type="button" onclick="account()">Record</button>
-        </form>      
+
+            <button type="button" onclick="account()">Record</button><br><br>
+            
+            
+            </div>
+        </form>
+        
         <script>
         function account() {
         location.replace("account.html")

@@ -1,0 +1,139 @@
+.container {
+  border-radius: 10px;
+  padding: 16px;
+}
+body {
+    font-family: Swis721 Lt BT,Square721 Cn BT,Swis721 Hv BT,Swis721 BT;
+    background: #116466;
+}
+a{
+    text-decoration: none;
+}
+form {
+  
+  border-radius: 25px;
+  background: #D1E8E2;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 500px;
+}
+.log-select{
+    
+    color: grey;
+}
+.txt{
+    font-family: Arial Rounded MT Bold;
+}
+input[type=text], input[type=password] {
+  font-family: Arial Rounded MT Bold;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+button {
+  font-family: Arial Rounded MT Bold;
+  background-color: #D9B08C;
+  color: grey;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+    background-color: #FFCB9A;
+    color:black;
+}
+.heading{
+    font-family: Arial Rounded MT Bold;
+    
+}
+
+.container {
+  border-radius: 10px;
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+a {
+  color: dodgerblue;
+}
+.text-line {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #D9B08C 2px;
+    padding: 3px 10px;
+}
+select {
+  margin: 50px;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #CCC;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: 96% / 15% no-repeat #116466;
+}
+
+select::-ms-expand {
+    display: none;
+}
+@media screen and (min-width:0\0) {
+    select {
+        background: none\9;
+        padding: 5px\9;
+    }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D1E8E2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: Arial Rounded MT Bold;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ebcdb0;
+}
+
+.active {
+  background-color:#D9B08C ;
+}
