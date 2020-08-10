@@ -12,7 +12,7 @@ and open the template in the editor.
         <link rel="StyleSheet" href="index.css" />
     </head>
     <body>
-        <form>
+        <form name="f1" onsubmit="return matchpass()">
             <font face = "Arial Rounded MT Bold"><a href="signup.html" >Sign Up</a>&nbsp;&nbsp;&nbsp;<a href="signin.html" class="log-select" >Sign In</a></font>
             <div class="container">
              <h2 align="center" ><font color="#116466" class="heading">Register</h2>
@@ -28,15 +28,25 @@ and open the template in the editor.
             <br><br>Re-Password<br><br>
             <input type="password" class="text-line" name="repassword" placeholder="Enter your password again"><br><br>
 
-            <button type="button" onclick="profile()">Sign Up</button><br><br>
+            <button type="button" onclick="check(this.form)">Sign Up</button><br><br>
             
             
             </div>
         </form>     
         <script>
-        function profile() {
-        location.replace("profile.html")
-        }
+        function check(form)
+        {
+            var firstpassword = form.password.value;  
+            var secondpassword = form.repassword.value;
+            if(firstpassword==secondpassword)
+            {
+                location.replace('profile.html')
+            }
+            else
+            {
+                alert("Password Must be Same!")
+            }
+        }  
         </script>
     </body>
 </html>

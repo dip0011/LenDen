@@ -23,9 +23,14 @@
         </form> 
         <script>
         function edit() {
-        location.replace("edit.html")
+            if (confirm("Do you want to edit your profile?")) 
+            {
+                location.replace("edit.html");
+            } 
+            else {
+                txt = "You pressed Cancel!";
+            }
         }
-        
         </script>
     </body>
 </html>
