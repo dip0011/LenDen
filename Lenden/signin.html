@@ -1,28 +1,66 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>Sign In</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="StyleSheet" href="index.css" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Edit</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body>
-        
-        <form method="post" action="profile.html">
-            <font face = "Arial Rounded MT Bold"><a href="signup.html" class="log-select">Sign Up</a>&nbsp;&nbsp;&nbsp;<a href="signin.html" >Sign In</a></font>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-             <h2 align="center" ><font color="#116466" class="heading">Sign Up</h2>
-            <br><br><label for="username">Username</label><br><br>
-            <input type="text" class="text-line" name="username" value="admin" placeholder="Enter Your User name">
-            
-            <br><br>Password<br><br>
-            <input type="password" class="text-line" name="password" value="admin" placeholder="Enter your password"><br><br>
-
-            <button type="button" onclick="check(this.form)">Sign Up</button><br><h4 align="right" ><a href="forgetpass.html"><div>forgot Password?</div></a></h4><br>
-            
-            
-            
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="skins/LenDen_logo.png" id="responsive-image"><font color="#01253f">LenDen</font></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
             </div>
-        </form>     
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <form>
+                        
+                        <font class="text-white-50 mx-auto mt-2 mb-5"><h3>Username</h3></font>
+                        <input type="text" class="text-line" name="username" value="admin" placeholder="Enter Yout Username">
+            
+                        <br><br><font class="text-white-50 mx-auto mt-2 mb-5"><h3>Password</h3></font>
+                        <input type="text" class="text-line" name="password" value="admin" placeholder="Enter Your Password">
+            
+                        <button class="btn btn-primary js-scroll-trigger" type="button" onclick="check(this.form)">Sign In</button><br><br>
+                        <a href="forgotpass.html"><div>forgot Password?</div></a>
+
+                    </form>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © LenDen Website 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
         <script>
         function check(form)
         {
@@ -38,3 +76,4 @@
         </script>
     </body>
 </html>
+
