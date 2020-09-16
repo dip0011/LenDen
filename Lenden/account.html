@@ -35,15 +35,14 @@
             </div>
         </nav>
         <!-- Masthead-->
+        <div id="b" style="position:absolute; top:75px">Come Back Later On</div>
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Account</h1><br>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">...Under Construction...</h2>
+                    <img src="skins/construct.png" id="pic"/>
                 </div>
             </div>
         </header>
-        
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © LenDen Website 2020</div></footer>
         <!-- Bootstrap core JS-->
@@ -51,6 +50,31 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        
+        <!--My jquery-->
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="http://www.google.com/jsapi"></script> 
+
+        <script>
+            $(document).ready(function() {
+            $("#b").animate({left: "+=500"}, 2000);
+            $("#b").animate({left: "-=300"}, 1000);
+            
+            $('#pic').fadeIn(150).delay(350).fadeOut(150).delay(350).fadeIn(150).delay(3500).fadeOut(150).delay(350).fadeIn(150);
+           });
+            function beeLeft() {
+                $("#b").animate({left: "-=500"}, 2000, "swing", beeRight);
+            }
+            function beeRight() {
+                $("#b").animate({left: "+=500"}, 2000, "swing", beeLeft);
+            }
+
+            beeRight();    
+        </script>
+        <script type="text/javascript">
+
+</script>
+        
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
